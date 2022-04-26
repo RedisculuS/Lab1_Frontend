@@ -48,3 +48,19 @@ body, html {
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+.to-main {
+    background-color:rgb(242, 215, 13);
+    font-family: 'Bebas Neue', 'Roboto', sans-serif;
+    font-size: large;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 15px;
+
+}
+
+.to-main:hover {
+    color: rgb(52, 1, 55);
+    font-weight: 600;
+}
