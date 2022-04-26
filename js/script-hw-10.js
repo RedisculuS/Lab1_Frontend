@@ -1,4 +1,4 @@
-const goPageMusic = document.querySelector('.to-music');
+const goPageMusic = document.querySelector('.to-main');
 
 function makeSound(e) {
     const code = e.keyCode ? e.keyCode : this.getAttribute("data-key"); 
