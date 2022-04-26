@@ -60,10 +60,31 @@ body, html {
     left: 50%;
     transform: translate(-50%,0);
     padding: 15px;
+    top: -60px;
 
 }
 
 .to-main:hover {
+    color:  #ffc600;
+    font-weight: 600;
+}
+
+.to-music {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    font-family: 'Bebas Neue', 'Roboto', sans-serif;
+    font-size: large;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 15px;
+    top: 100px;
+
+}
+
+.to-music:hover {
     color:  #ffc600;
     font-weight: 600;
 }
